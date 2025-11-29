@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3D8F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/travel2"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add New Trip"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#004AAD" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Trip Origin (From)"
+            android:textColor="#000000"
+            android:textColorHint="#5078A0"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination (To)"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textColorHint="#5078A0"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Trip Date"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:focusable="false"
+            android:textColor="#000000"
+            android:textColorHint="#5078A0"
+            android:layout_marginBottom="12dp" />
+
+
+        <EditText
+            android:id="@+id/edtBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="$ Budget"
+            android:inputType="number"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textColorHint="#5078A0"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Duration (Days)"
+            android:inputType="number"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textColorHint="#5078A0"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtTravelers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Travelers"
+            android:inputType="number"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textColorHint="#5078A0"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtNotes"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Notes"
+            android:gravity="top"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textColorHint="#5078A0"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip Type:"
+            android:textColor="#003A70"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbVacation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vacation"
+                android:textColor="#003A70"/>
+
+            <RadioButton
+                android:id="@+id/rbBusiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business"
+                android:layout_marginLeft="20dp"
+                android:textColor="#003A70"/>
+
+            <RadioButton
+                android:id="@+id/rbFamily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Family"
+                android:layout_marginLeft="20dp"
+                android:textColor="#003A70"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meals:"
+            android:textSize="16sp"
+            android:textColor="#003A70"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbBreakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast"
+                android:textColor="#003A70"/>
+
+            <CheckBox
+                android:id="@+id/cbLunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch"
+                android:layout_marginStart="16dp"
+                android:textColor="#003A70"/>
+
+            <CheckBox
+                android:id="@+id/cbDinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner"
+                android:layout_marginStart="16dp"
+                android:textColor="#003A70"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Packing:"
+            android:textSize="16sp"
+            android:textColor="#003A70"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbPassport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passport"
+                android:textColor="#003A70"/>
+
+            <CheckBox
+                android:id="@+id/cbCharger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charger"
+                android:textColor="#003A70"/>
+
+            <CheckBox
+                android:id="@+id/cbClothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clothes"
+                android:textColor="#003A70"/>
+
+            <CheckBox
+                android:id="@+id/cbMedicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine"
+                android:textColor="#003A70"/>
+
+            <CheckBox
+                android:id="@+id/cbCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:textColor="#003A70"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSaveTrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Trip"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0A3D91"
+            android:padding="18dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="80dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
