@@ -30,28 +30,22 @@ This application was developed as part of a **Mobile Application Development ass
 ## App Screens 📸
 
 ### Sign In Screen
-
-![Sign In](signIn.jpeg)
+<img src="signIn.jpeg" alt="Sign In" width="300">
 
 ### Sign Up Screen
-
-![Sign Up](SingUp.jpeg)
+<img src="SingUp.jpeg" alt="Sign Up" width="300">
 
 ### Home Screen (Task List)
-
-![Home Screen](HomeScreen.jpeg)
+<img src="HomeScreen.jpeg" alt="Home Screen" width="300">
 
 ### Add New Task
-
-![Add Task](AddTrip.jpeg)
+<img src="AddTrip.jpeg" alt="Add Task" width="300">
 
 ### Edit Task
-
-![Edit Task](EditTrip.jpeg)
+<img src="EditTrip.jpeg" alt="Edit Task" width="300">
 
 ### Search Tasks
-
-![Search](Search.jpeg)
+<img src="Search.jpeg" alt="Search" width="300">
 
 ---
 
