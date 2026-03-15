@@ -51,7 +51,7 @@ This application was developed as part of a **Mobile Application Development ass
 
 ## Technologies Used 🛠
 
-* Java / Kotlin
+* Java 
 * Android Studio
 * RecyclerView
 * SharedPreferences
