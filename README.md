@@ -31,31 +31,27 @@ This application was developed as part of a **Mobile Application Development ass
 
 ### Sign In Screen
 
-![Sign In](images/signin.png)
+![Sign In](signIn.jpeg)
 
 ### Sign Up Screen
 
-![Sign Up](images/signup.png)
+![Sign Up](SingUp.jpeg)
 
 ### Home Screen (Task List)
 
-![Home Screen](images/home.png)
+![Home Screen](HomeScreen.jpeg)
 
 ### Add New Task
 
-![Add Task](images/add_task.png)
+![Add Task](AddTrip.jpeg)
 
 ### Edit Task
 
-![Edit Task](images/edit_task.png)
+![Edit Task](EditTrip.jpeg)
 
 ### Search Tasks
 
-![Search](images/search.png)
-
-### Date Picker
-
-![Date Picker](images/date_picker.png)
+![Search](Search.jpeg)
 
 ---
 
@@ -110,6 +106,6 @@ Google Drive Link:
 
 ## Author 👨‍💻
 
-Developed by: **Aseel Khatib*
+Developed by: **Aseel Khatib**
 
 Mobile Application Development Assignment – Android
