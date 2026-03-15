@@ -99,7 +99,7 @@ All application data is stored locally using **SharedPreferences**, allowing the
 A short demonstration video (around 3 minutes) showing the application features can be viewed here:
 
 Google Drive Link:
-[https://drive.google.com/drive/u/0/home]
+https://drive.google.com/drive/u/0/home
 
 ---
 
